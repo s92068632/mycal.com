@@ -53,9 +53,8 @@
         function Clear(){
             outputScreen.value = "";
         }
-        
-        del() {
-            this.currentOperand = this.currentOperand.toString().slice(0, -1)
+        function del(){
+            outputScreen.value.slice(0, -1);
         }
 
     </script>
