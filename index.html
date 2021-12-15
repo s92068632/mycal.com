@@ -14,7 +14,7 @@
             <input type="text" placeholder="0" id="output-screen">
 
             <button onclick="Clear()">CL</button>
-            <button class="currentOperand" onclick="del()">DEL</button>
+            <button onclick="del()">DEL</button>
             <button onclick="display('%')">%</button>
             <button onclick="display('/')">/</button>
             <button onclick="display('7')">7</button>
@@ -53,9 +53,7 @@
         function Clear(){
             outputScreen.value = "";
         }
-        function del(){
-            outputScreen.value.slice(0, -1);
-        }
+        
 
     </script>
 </body>
